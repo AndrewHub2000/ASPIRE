@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ASPIRE</string>
+    <string name="vector">Vector</string>
+    <string name="vector1">Vector1</string>
+    <string name="vector2">Vector2</string>
+    <string name="vector3">Vector3</string>
+    <string name="vector4">Vector4</string>
+    <string name="vector5">Vector5</string>
+    <string name="vector6">Vector6</string>
+    <string name="vector7">Vector7</string>
+    <string name="vector8">Vector8</string>
+    <string name="arrow">Arrow</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="line">Line</string>
+    <string name="line1">Line1</string>
+    <string name="line2">Line2</string>
+
+</resources>
