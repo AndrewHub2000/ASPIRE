@@ -11,9 +11,23 @@
     <string name="vector8">Vector8</string>
     <string name="arrow">Arrow</string>
     <string name="button">Button</string>
-    <string name="todo">TODO</string>
     <string name="line">Line</string>
     <string name="line1">Line1</string>
     <string name="line2">Line2</string>
+
+
+    <string name="text1">Хотите к нам?</string>
+    <string name="text2">На нашем сайте вы сможете создать собственный ресторан и управлять им</string>
+    <string name="button2">Перейти на aspire.ua</string>
+    <string name="button3">Button3</string>
+    <string name="line3">Line3</string>
+    <string name="line4">Line4</string>
+    <string name="line5">Line5</string>
+
+
+    <string name="text3">Закажем что-нибудь?</string>
+    <string name="text4">На нашем сайте вы сможете создать собственный ресторан и управлять им</string>
+    <string name="button4">Войти в свой аккаунт</string>
+    <string name="button5">Я первый раз тут</string>
 
 </resources>
