@@ -16,8 +16,18 @@
     <string name="line2">Line2</string>
 
 
+    <string name="vector9">Vector9</string>
+    <string name="vector10">Vector10</string>
+    <string name="vector11">Vector11</string>
+    <string name="vector12">Vector12</string>
+    <string name="vector13">Vector13</string>
+    <string name="vector14">Vector14</string>
+    <string name="vector15">Vector15</string>
+    <string name="vector16">Vector16</string>
+    <string name="vector17">Vector17</string>
+    <string name="imageView">imageView</string>
     <string name="text1">Хотите к нам?</string>
-    <string name="text2">На нашем сайте вы сможете создать собственный ресторан и управлять им</string>
+    <string name="text2">На нашем сайте вы сможете создать собственный \n ресторан и управлять им</string>
     <string name="button2">Перейти на aspire.ua</string>
     <string name="button3">Button3</string>
     <string name="line3">Line3</string>
@@ -25,9 +35,21 @@
     <string name="line5">Line5</string>
 
 
+
+    <string name="vector18">Vector18</string>
+    <string name="vector19">Vector19</string>
+    <string name="vector20">Vector20</string>
+    <string name="vector21">Vector21</string>
+    <string name="vector22">Vector22</string>
+    <string name="vector23">Vector23</string>
+    <string name="vector24">Vector24</string>
+    <string name="vector25">Vector25</string>
+    <string name="vector26">Vector26</string>
+    <string name="girl">Girl</string>
     <string name="text3">Закажем что-нибудь?</string>
-    <string name="text4">На нашем сайте вы сможете создать собственный ресторан и управлять им</string>
+    <string name="text4">На нашем сайте вы сможете создать собственный \n ресторан и управлять им</string>
     <string name="button4">Войти в свой аккаунт</string>
     <string name="button5">Я первый раз тут</string>
+
 
 </resources>
