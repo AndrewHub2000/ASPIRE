@@ -35,7 +35,6 @@
     <string name="line5">Line5</string>
 
 
-
     <string name="vector18">Vector18</string>
     <string name="vector19">Vector19</string>
     <string name="vector20">Vector20</string>
@@ -51,5 +50,39 @@
     <string name="button4">Войти в свой аккаунт</string>
     <string name="button5">Я первый раз тут</string>
 
+
+    <string name="vector27">Vector27</string>
+    <string name="vector28">Vector28</string>
+    <string name="vector29">Vector29</string>
+    <string name="vector30">Vector30</string>
+    <string name="vector31">Vector31</string>
+    <string name="vector32">Vector32</string>
+    <string name="vector33">Vector33</string>
+    <string name="vector34">Vector34</string>
+    <string name="vector35">Vector35</string>
+    <string name="arrow2">Arrow2</string>
+    <string name="text5">Вход в ресторан</string>
+    <string name="EditText1"></string>
+    <string name="text6">Логин</string>
+    <string name="EditText2"></string>
+    <string name="text7">Забыли пароль?</string>
+    <string name="eye_icon">Eye Icon</string>
+    <string name="button6">Войти в свой аккаунт</string>
+    <string name="text8">Войти через соц сети</string>
+    <string name="box">Box</string>
+    <string name="telegram">Telegram</string>
+    <string name="viber1">Viber1</string>
+    <string name="viber2">Viber2</string>
+    <string name="viber3">Viber3</string>
+    <string name="viber4">Viber4</string>
+    <string name="viber5">Viber5</string>
+    <string name="google1">Google1</string>
+    <string name="google2">Google2</string>
+    <string name="google3">Google3</string>
+    <string name="google4">Google4</string>
+    <string name="google5">Google5</string>
+    <string name="google6">Google6</string>
+    <string name="text9">Еще не создавали аккаунт?</string>
+    <string name="text10">Создать профиль</string>
 
 </resources>
