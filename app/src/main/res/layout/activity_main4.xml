@@ -252,7 +252,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="82dp"
-        android:layout_marginStart="291dp"
+        android:layout_marginStart="261dp"
         android:layout_marginEnd="21dp"
         android:layout_marginBottom="413dp"
         android:textSize="12sp"

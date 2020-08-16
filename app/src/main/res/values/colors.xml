@@ -9,4 +9,6 @@
     <color name="text3">#3E333F</color>
     <color name="button4">#FFFFFF</color>
     <color name="application_background">#E5E5E5</color>
+    <color name="text11">#FF7171</color>
+    <color name="time_main_page">#AEAEAE</color>
 </resources>
