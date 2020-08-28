@@ -102,7 +102,7 @@
         app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="97dp"
@@ -125,6 +125,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <ImageView
+        android:id="@+id/eye_icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22.04dp"
+        android:layout_marginStart="288.04dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="22.04dp"
+        android:contentDescription="@string/eye_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword2"
+        app:srcCompat="@drawable/eye_icon" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
@@ -149,10 +164,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
     <ImageView
-        android:id="@+id/imageView63"
+        android:id="@+id/eye_icon3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22.04dp"

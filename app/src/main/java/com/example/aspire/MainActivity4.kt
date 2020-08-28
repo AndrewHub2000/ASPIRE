@@ -28,13 +28,13 @@ class MainActivity4 : AppCompatActivity() {
 
     private fun showAndHide(isShow: Boolean) {
         if (isShow) {
-            editTextTextPassword2.transformationMethod = HideReturnsTransformationMethod()
+            editTextTextPassword.transformationMethod = HideReturnsTransformationMethod()
             eye_icon.setImageResource(R.drawable.eye_icon2)
         } else {
-            editTextTextPassword2.transformationMethod = PasswordTransformationMethod.getInstance()
+            editTextTextPassword.transformationMethod = PasswordTransformationMethod.getInstance()
             eye_icon.setImageResource(R.drawable.eye_icon)
         }
-        editTextTextPassword2.setSelection(editTextTextPassword2.text.toString().length)
+        editTextTextPassword.setSelection(editTextTextPassword.text.toString().length)
     }
 
 }
