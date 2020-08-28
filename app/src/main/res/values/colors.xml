@@ -12,4 +12,7 @@
     <color name="text11">#FF7171</color>
     <color name="time_main_page">#AEAEAE</color>
     <color name="Bartolomeo">#3A333C</color>
+    <color name="Bottom_icon_checked">#FC4442</color>
+    <color name="Bottom_icon_notChecked">#3E333F</color>
+    <color name="white">#FFFFFF</color>
 </resources>

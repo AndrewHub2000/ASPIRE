@@ -9,153 +9,32 @@
 
     <ImageView
         android:id="@+id/imageView26"
-        android:layout_width="310dp"
-        android:layout_height="415dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="360dp"
         android:contentDescription="@string/girl"
-        android:src="@drawable/girl"
+        android:src="@drawable/girl_activity_main_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/aspire_activity_main_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="163.46dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="87dp"
-        android:layout_marginEnd="238.06dp"
-        android:layout_marginBottom="414.61dp"
-        android:contentDescription="@string/vector18"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector9" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150.76dp"
-        android:layout_marginTop="89.89dp"
-        android:layout_marginEnd="225.34dp"
-        android:layout_marginBottom="406.24dp"
-        android:contentDescription="@string/vector19"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector10" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="151.22dp"
-        android:layout_marginTop="97.03dp"
-        android:layout_marginEnd="224.22dp"
-        android:layout_marginBottom="404.23dp"
-        android:contentDescription="@string/vector20"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector11" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="103.36dp"
-        android:layout_marginEnd="266.77dp"
-        android:layout_marginBottom="389.87dp"
-        android:contentDescription="@string/vector21"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector12" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140.07dp"
-        android:layout_marginTop="103.12dp"
-        android:layout_marginEnd="256.06dp"
-        android:layout_marginBottom="389.79dp"
-        android:contentDescription="@string/vector22"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector13" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150.39dp"
-        android:layout_marginTop="103.35dp"
-        android:layout_marginEnd="244.79dp"
-        android:layout_marginBottom="390.04dp"
-        android:contentDescription="@string/vector23"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector14" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="162.72dp"
-        android:layout_marginTop="102.89dp"
-        android:layout_marginEnd="236.46dp"
-        android:layout_marginBottom="390.02dp"
-        android:contentDescription="@string/vector24"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector15" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="169.19dp"
-        android:layout_marginTop="103.35dp"
-        android:layout_marginEnd="226.06dp"
-        android:layout_marginBottom="390.04dp"
-        android:contentDescription="@string/vector25"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector16" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="181.02dp"
-        android:layout_marginTop="103.36dp"
-        android:layout_marginEnd="215dp"
-        android:layout_marginBottom="390.03dp"
-        android:contentDescription="@string/vector26"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector17" />
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="381.79dp"
+        android:background="@drawable/aspire_activity_main_2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+        app:layout_constraintEnd_toEndOf="@+id/imageView26"
+        app:layout_constraintStart_toStartOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/imageView26" />
 
     <TextView
         android:id="@+id/textView3"

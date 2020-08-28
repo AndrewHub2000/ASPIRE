@@ -8,139 +8,18 @@
     tools:context=".MainActivity4">
 
     <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="192.61dp"
-        android:layout_marginTop="90dp"
-        android:layout_marginEnd="178.4dp"
-        android:layout_marginBottom="154dp"
-        android:contentDescription="@string/vector27"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector18" />
-
-    <ImageView
-        android:id="@+id/imageView28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="178.06dp"
-        android:layout_marginTop="91dp"
-        android:layout_marginEnd="163.84dp"
-        android:layout_marginBottom="143dp"
-        android:contentDescription="@string/vector28"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector19" />
-
-    <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="178.59dp"
-        android:layout_marginTop="101dp"
-        android:layout_marginEnd="162.55dp"
-        android:layout_marginBottom="140dp"
-        android:contentDescription="@string/vector29"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector20" />
-
-    <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/aspire_activity_main4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="152dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="211.29dp"
-        android:layout_marginBottom="124dp"
-        android:contentDescription="@string/vector30"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector21" />
-
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="165.82dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="199.02dp"
-        android:layout_marginBottom="124dp"
-        android:contentDescription="@string/vector31"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector22" />
-
-    <ImageView
-        android:id="@+id/imageView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="177.64dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="186.11dp"
-        android:layout_marginBottom="124dp"
-        android:contentDescription="@string/vector32"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector23" />
-
-    <ImageView
-        android:id="@+id/imageView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="191.76dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="176.57dp"
-        android:layout_marginBottom="124dp"
-        android:contentDescription="@string/vector33"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector24" />
-
-    <ImageView
-        android:id="@+id/imageView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="199.17dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="164.66dp"
-        android:layout_marginBottom="124dp"
-        android:contentDescription="@string/vector34"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector25" />
-
-    <ImageView
-        android:id="@+id/imageView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="212.72dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="152dp"
-        android:layout_marginBottom="124dp"
-        android:contentDescription="@string/vector35"
+        android:layout_marginBottom="69.84dp"
+        android:background="@drawable/aspire_activity_main_4"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector26" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView36"
@@ -265,7 +144,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
     <ImageView
-        android:id="@+id/imageView37"
+        android:id="@+id/eye_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22.04dp"
@@ -318,248 +197,79 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
-    <ImageView
-        android:id="@+id/imageView38"
+    <ImageButton
+        android:id="@+id/image_button_telegram"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="74dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="260dp"
-        android:layout_marginBottom="163dp"
-        android:contentDescription="@string/box"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/network_rounded"
+        android:paddingStart="37dp"
+        android:paddingTop="19dp"
+        android:paddingEnd="36dp"
+        android:paddingBottom="18dp"
+        android:src="@drawable/telegram"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/box" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    <ImageView
-        android:id="@+id/imageView39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="18dp"
-        android:contentDescription="@string/telegram"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView38"
-        app:layout_constraintEnd_toEndOf="@+id/imageView38"
-        app:layout_constraintStart_toStartOf="@+id/imageView38"
-        app:layout_constraintTop_toTopOf="@+id/imageView38"
-        app:srcCompat="@drawable/telegram" />
-
-    <ImageView
-        android:id="@+id/imageView40"
+    <ImageButton
+        android:id="@+id/image_button_viber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="93dp"
         android:layout_marginEnd="22dp"
-        android:layout_marginBottom="163dp"
-        android:contentDescription="@string/box"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/network_rounded"
+        android:paddingStart="38dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="37dp"
+        android:paddingBottom="16.7dp"
+        android:src="@drawable/viber"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView46"
-        app:layout_constraintStart_toEndOf="@+id/imageView38"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/box" />
+        app:layout_constraintEnd_toStartOf="@+id/image_button_google"
+        app:layout_constraintStart_toEndOf="@+id/image_button_telegram"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    <ImageView
-        android:id="@+id/imageView41"
+    <ImageButton
+        android:id="@+id/image_button_google"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="16.7dp"
-        android:contentDescription="@string/viber1"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView40"
-        app:layout_constraintEnd_toEndOf="@+id/imageView40"
-        app:layout_constraintStart_toStartOf="@+id/imageView40"
-        app:layout_constraintTop_toTopOf="@+id/imageView40"
-        app:srcCompat="@drawable/viber_1" />
-
-    <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5.69dp"
-        android:layout_marginStart="5.51dp"
-        android:layout_marginEnd="6.23dp"
-        android:layout_marginBottom="7.91dp"
-        android:contentDescription="@string/viber2"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView41"
-        app:layout_constraintEnd_toEndOf="@+id/imageView41"
-        app:layout_constraintStart_toStartOf="@+id/imageView41"
-        app:layout_constraintTop_toTopOf="@+id/imageView41"
-        app:srcCompat="@drawable/viber_2" />
-
-    <ImageView
-        android:id="@+id/imageView43"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8.54dp"
-        android:layout_marginStart="13.08dp"
-        android:layout_marginEnd="9.26dp"
-        android:layout_marginBottom="15.94dp"
-        android:contentDescription="@string/viber3"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView41"
-        app:layout_constraintEnd_toEndOf="@+id/imageView41"
-        app:layout_constraintStart_toStartOf="@+id/imageView41"
-        app:layout_constraintTop_toTopOf="@+id/imageView41"
-        app:srcCompat="@drawable/viber_3" />
-
-    <ImageView
-        android:id="@+id/imageView44"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6.69dp"
-        android:layout_marginStart="12.58dp"
-        android:layout_marginEnd="7.55dp"
-        android:layout_marginBottom="15.35dp"
-        android:contentDescription="@string/viber4"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView41"
-        app:layout_constraintEnd_toEndOf="@+id/imageView41"
-        app:layout_constraintStart_toStartOf="@+id/imageView41"
-        app:layout_constraintTop_toTopOf="@+id/imageView41"
-        app:srcCompat="@drawable/viber_4" />
-
-    <ImageView
-        android:id="@+id/imageView45"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4.9dp"
-        android:layout_marginStart="11.99dp"
-        android:layout_marginEnd="5.79dp"
-        android:layout_marginBottom="14.64dp"
-        android:contentDescription="@string/viber5"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView41"
-        app:layout_constraintEnd_toEndOf="@+id/imageView41"
-        app:layout_constraintStart_toStartOf="@+id/imageView41"
-        app:layout_constraintTop_toTopOf="@+id/imageView41"
-        app:srcCompat="@drawable/viber_5" />
-
-    <ImageView
-        android:id="@+id/imageView46"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="257dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="93dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="163dp"
-        android:contentDescription="@string/box"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/network_rounded"
+        android:paddingStart="39dp"
+        android:paddingTop="19dp"
+        android:paddingEnd="38dp"
+        android:paddingBottom="18dp"
+        android:src="@drawable/google"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/box" />
-
-    <ImageView
-        android:id="@+id/imageView47"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:layout_marginStart="47.8dp"
-        android:layout_marginEnd="40.89dp"
-        android:layout_marginBottom="33.34dp"
-        android:contentDescription="@string/google1"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
-        app:layout_constraintEnd_toEndOf="@+id/imageView46"
-        app:layout_constraintStart_toStartOf="@+id/imageView46"
-        app:layout_constraintTop_toTopOf="@+id/imageView46"
-        app:srcCompat="@drawable/google_1" />
-
-    <ImageView
-        android:id="@+id/imageView48"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:layout_marginStart="41.37dp"
-        android:layout_marginEnd="49.5dp"
-        android:layout_marginBottom="32.62dp"
-        android:contentDescription="@string/google2"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
-        app:layout_constraintEnd_toEndOf="@+id/imageView46"
-        app:layout_constraintStart_toStartOf="@+id/imageView46"
-        app:layout_constraintTop_toTopOf="@+id/imageView46"
-        app:srcCompat="@drawable/google_2" />
-
-    <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="23.5dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginEnd="54.75dp"
-        android:layout_marginBottom="22.5dp"
-        android:contentDescription="@string/google3"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
-        app:layout_constraintEnd_toEndOf="@+id/imageView46"
-        app:layout_constraintStart_toStartOf="@+id/imageView46"
-        app:layout_constraintTop_toTopOf="@+id/imageView46"
-        app:srcCompat="@drawable/google_3" />
-
-    <ImageView
-        android:id="@+id/imageView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="33.62dp"
-        android:layout_marginStart="41.37dp"
-        android:layout_marginEnd="49.5dp"
-        android:layout_marginBottom="18dp"
-        android:contentDescription="@string/google4"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
-        app:layout_constraintEnd_toEndOf="@+id/imageView46"
-        app:layout_constraintStart_toStartOf="@+id/imageView46"
-        app:layout_constraintTop_toTopOf="@+id/imageView46"
-        app:srcCompat="@drawable/google_4" />
-
-    <ImageView
-        android:id="@+id/imageView51"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35.75dp"
-        android:layout_marginStart="47.8dp"
-        android:layout_marginEnd="42.5dp"
-        android:layout_marginBottom="18dp"
-        android:contentDescription="@string/google5"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
-        app:layout_constraintEnd_toEndOf="@+id/imageView46"
-        app:layout_constraintStart_toStartOf="@+id/imageView46"
-        app:layout_constraintTop_toTopOf="@+id/imageView46"
-        app:srcCompat="@drawable/google_5" />
-
-    <ImageView
-        android:id="@+id/imageView52"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27.86dp"
-        android:layout_marginStart="50.5dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="20.37dp"
-        android:contentDescription="@string/google6"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
-        app:layout_constraintEnd_toEndOf="@+id/imageView46"
-        app:layout_constraintStart_toStartOf="@+id/imageView46"
-        app:layout_constraintTop_toTopOf="@+id/imageView46"
-        app:srcCompat="@drawable/google_6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="97dp"
         android:layout_marginStart="102dp"
+        android:layout_marginTop="53dp"
         android:layout_marginEnd="103dp"
-        android:layout_marginBottom="95dp"
+        android:layout_marginBottom="48dp"
         android:text="@string/text9"
         android:textColor="@color/text2"
-        android:textStyle="normal"
         android:textSize="13sp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+        app:layout_constraintTop_toBottomOf="@+id/image_button_viber" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
