@@ -21,7 +21,7 @@ class MainActivity4 : AppCompatActivity() {
         showAndHide(showPassword)
 
         button4.setOnClickListener{
-            val intent = Intent(this, MainPage::class.java)
+            val intent = Intent(this, BottomNavigation::class.java)
             startActivity(intent)
         }
     }
