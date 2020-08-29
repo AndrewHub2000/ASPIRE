@@ -19,7 +19,7 @@
     <item
         android:id="@+id/favorite"
         android:title=""
-        android:icon="@drawable/bottom_navigation_favorite"/>
+        android:icon="@drawable/bottom_favorite_change"/>
 
     <item
         android:id="@+id/basket"
