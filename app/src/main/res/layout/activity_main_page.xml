@@ -137,7 +137,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp">
 
-            <ImageButton
+            <RadioButton
                 android:id="@+id/like"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
+            <RadioButton
                 android:id="@+id/newest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -172,7 +172,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"/>
 
 
-            <ImageButton
+            <RadioButton
                 android:id="@+id/sale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
