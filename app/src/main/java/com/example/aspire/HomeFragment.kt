@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.RadioButton
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_main_page.*
@@ -24,6 +25,15 @@ class HomeFragment : Fragment (R.layout.activity_main_page)
         val buttonCalculate = root.findViewById(R.id.like) as RadioButton
         val buttonCalculate2 = root.findViewById(R.id.newest) as RadioButton
         val buttonCalculate3 = root.findViewById(R.id.sale) as RadioButton
+
+        val group1 = root.findViewById(R.id.group1) as ImageView
+
+        group1.setOnClickListener{
+            activity?.let {
+                val intent = Intent(it, DishDescription::class.java)
+                it.startActivity(intent)
+            }
+        }
 
         buttonCalculate.isChecked=true
         buttonCalculate.setOnCheckedChangeListener { _, isChecked ->
