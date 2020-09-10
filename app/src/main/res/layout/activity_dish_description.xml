@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/application_background"
+    tools:context=".DishDescription">
+
+    <ImageView
+        android:id="@+id/arrow_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16.37dp"
+        android:layout_marginTop="19.87dp"
+        android:layout_marginEnd="338.38dp"
+        android:layout_marginBottom="19.87dp"
+        app:layout_constraintBottom_toTopOf="@+id/dish_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow2" />
+
+    <ImageView
+        android:id="@+id/chat_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288.22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="63.22dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/dish_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chat_dish_description" />
+
+    <ImageView
+        android:id="@+id/heart_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="333dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16.32dp"
+        android:layout_marginBottom="16.14dp"
+        app:layout_constraintBottom_toTopOf="@+id/dish_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart_dish_description" />
+
+    <ImageView
+        android:id="@+id/dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="546dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dish_description" />
+
+    <TextView
+        android:id="@+id/Bartolomeo_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="486dp"
+        android:text="Bartolomeo"
+        android:textColor="@color/Bartolomeo"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dish_description" />
+
+    <ImageView
+        android:id="@+id/clock_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="486dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Bartolomeo_dish_description"
+        app:layout_constraintTop_toBottomOf="@+id/dish_description"
+        app:srcCompat="@drawable/clock_dish_description" />
+
+    <TextView
+        android:id="@+id/time_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="488dp"
+        android:text="10:00 - 20:00"
+        android:textColor="@color/time_dish_description"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clock_dish_description"
+        app:layout_constraintTop_toBottomOf="@+id/dish_description" />
+
+    <ImageView
+        android:id="@+id/stars_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16.03dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="277.72dp"
+        android:layout_marginBottom="456.18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bartolomeo_dish_description"
+        app:srcCompat="@drawable/stars_dish_description" />
+
+    <ImageView
+        android:id="@+id/button_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21.71dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="387dp"
+        android:background="@drawable/button_rounded_dish_description"
+        android:paddingStart="13dp"
+        android:paddingTop="11.44dp"
+        android:paddingEnd="13dp"
+        android:paddingBottom="10.06dp"
+        android:src="@drawable/button_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stars_dish_description" />
+
+    <ImageButton
+        android:id="@+id/button_cold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="21.71dp"
+        android:layout_marginBottom="387dp"
+        android:src="@drawable/button_cold"
+        android:background="@drawable/button_rounded_dish_description"
+        android:paddingStart="13dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12.94dp"
+        android:paddingBottom="7.47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_menu"
+        app:layout_constraintTop_toBottomOf="@+id/stars_dish_description" />
+
+    <ImageButton
+        android:id="@+id/button_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="21.71dp"
+        android:layout_marginBottom="387dp"
+        android:background="@drawable/button_rounded_dish_description"
+        android:src="@drawable/button_hot"
+        android:paddingStart="15dp"
+        android:paddingTop="8.57dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="12.57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_cold"
+        app:layout_constraintTop_toBottomOf="@+id/stars_dish_description" />
+
+    <ImageButton
+        android:id="@+id/button_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="21.71dp"
+        android:layout_marginBottom="387dp"
+        android:background="@drawable/button_rounded_dish_description"
+        android:src="@drawable/button_drink"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="19.67dp"
+        android:paddingBottom="10.63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_hot"
+        app:layout_constraintTop_toBottomOf="@+id/stars_dish_description" />
+
+    <ImageView
+        android:id="@+id/rectangle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/rectangle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_hot" />
+
+    <ImageView
+        android:id="@+id/desert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="233.75dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/desert"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+        app:layout_constraintStart_toStartOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <TextView
+        android:id="@+id/dish1_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="69dp"
+        android:text="Блюдо1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+        app:layout_constraintStart_toStartOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128.2dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="20.88dp"
+        android:layout_marginBottom="24dp"
+        android:text="Тунец с тыквой под соусом табоджи, \nподаный с кусочком лука (200гр)"
+        android:textColor="@color/time_main_page"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+        app:layout_constraintStart_toStartOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="79dp"
+        android:text="350грн"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+        app:layout_constraintStart_toStartOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/dish_top_of_the_day"
+        android:paddingStart="14dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="4dp"
+        android:text="Блюдо дня"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+        app:layout_constraintStart_toStartOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <ImageView
+        android:id="@+id/float_button_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/float_button1"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+        app:layout_constraintStart_toStartOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <ImageView
+        android:id="@+id/line_dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/line_dish_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle1" />
+
+    <ImageView
+        android:id="@+id/white_rectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/white_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line_dish_description" />
+
+    <ImageView
+        android:id="@+id/desert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/desert2"
+        app:layout_constraintBottom_toBottomOf="@+id/white_rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/white_rectangle"
+        app:layout_constraintStart_toStartOf="@+id/white_rectangle"
+        app:layout_constraintTop_toBottomOf="@+id/line_dish_description" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="67dp"
+        android:text="Блюдо2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/white_rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/white_rectangle"
+        app:layout_constraintStart_toStartOf="@+id/white_rectangle"
+        app:layout_constraintTop_toTopOf="@+id/white_rectangle" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="22dp"
+        android:text="Королевские креветки с \nкреветочным соусом"
+        android:textColor="@color/time_main_page"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/white_rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/white_rectangle"
+        app:layout_constraintStart_toStartOf="@+id/white_rectangle"
+        app:layout_constraintTop_toTopOf="@+id/white_rectangle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="80dp"
+        android:text="3500грн"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/white_rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/white_rectangle"
+        app:layout_constraintStart_toStartOf="@+id/white_rectangle"
+        app:layout_constraintTop_toTopOf="@+id/white_rectangle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="704dp"
+        android:layout_marginBottom="37dp"
+        android:text="Корзина"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:background="@drawable/basket_background"
+        android:paddingStart="55dp"
+        android:paddingTop="22dp"
+        android:paddingEnd="302dp"
+        android:paddingBottom="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

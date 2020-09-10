@@ -51,7 +51,7 @@
                     android:layout_marginEnd="239dp"
                     android:layout_marginBottom="138dp"
                     android:text="Рекомендовано"
-                    android:background="@color/text11"
+                    android:background="@color/recommendation"
                     android:textSize="10sp"
                     android:textStyle="normal"
                     android:textColor="@color/button4"
@@ -137,58 +137,69 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp">
 
-            <RadioButton
-                android:id="@+id/like"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="289dp"
-                android:text="Популярное"
-                android:background="@drawable/black_hand_like_rounded"
-                android:src="@drawable/black_hand_like"
-                android:paddingStart="18dp"
-                android:paddingTop="15dp"
-                android:paddingEnd="18dp"
-                android:paddingBottom="11dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true"
+                android:animationCache="true">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:orientation="horizontal"
+                    >
 
-            <RadioButton
-                android:id="@+id/newest"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Новое"
-                android:background="@drawable/black_hand_like_rounded"
-                android:src="@drawable/newest"
-                android:paddingStart="21dp"
-                android:paddingTop="8dp"
-                android:paddingEnd="22dp"
-                android:paddingBottom="8.07dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+                    <RadioButton
+                        android:id="@+id/like"
+                        style="@style/ToggleButton"
+                        android:layout_width="151dp"
+
+                        android:layout_height="44dp"
+                        android:drawableStart="@drawable/white_hand_like"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:layout_marginLeft="16dp"
+                        android:paddingStart="25dp"
+                        android:text="    Популярное"
+                        android:textColor="@color/bteColor"/>
+
+                    <RadioButton
+                        android:id="@+id/newest"
+                        style="@style/ToggleButton"
+                        android:layout_width="70dp"
+                        android:layout_height="44dp"
+                        android:inputType="text"
+
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingStart="21dp"
+                        android:layout_marginLeft="26dp"
+                        android:drawableStart="@drawable/newest"
+                        android:text="    Новое"
+                        android:textColor="@color/bteColor"
+                        />
 
 
-            <RadioButton
-                android:id="@+id/sale"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="289dp"
-                android:layout_marginEnd="16dp"
-                android:text="Скидки"
-                android:background="@drawable/black_hand_like_rounded"
-                android:src="@drawable/sale"
-                android:paddingStart="20.61dp"
-                android:paddingTop="7dp"
-                android:paddingEnd="20.61dp"
-                android:paddingBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                    <RadioButton
+                        android:id="@+id/sale"
+                        style="@style/ToggleButton"
+                        android:layout_width="70dp"
+                        android:layout_height="44dp"
+                        android:inputType="text"
+                        android:layout_marginLeft="26dp"
+                        android:lines="1"
+                        android:maxLines="1"
+
+                        android:paddingStart="21dp"
+                        android:drawableStart="@drawable/sale"
+                        android:text="    Скидки"
+                        android:textColor="@color/bteColor"
+                        />
+                </RadioGroup>
+            </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -206,216 +217,123 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/imageView81"
+                android:id="@+id/group1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="23dp"
-                android:layout_marginEnd="16dp"
-                android:src="@drawable/dish"
+                android:src="@drawable/group_activity_main_page"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/aspire_other_dish"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="286.56dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="19.99dp"
-                android:layout_marginBottom="103.68dp"
+                android:layout_marginBottom="190dp"
                 android:src="@drawable/aspire_other_dish"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView81"
-                app:layout_constraintEnd_toEndOf="@+id/imageView81"
-                app:layout_constraintStart_toStartOf="@+id/imageView81"
-                app:layout_constraintTop_toTopOf="@+id/imageView81" />
+                app:layout_constraintBottom_toBottomOf="@+id/group1"
+                app:layout_constraintEnd_toEndOf="@+id/group1"
+                app:layout_constraintStart_toStartOf="@+id/group1"
+                app:layout_constraintTop_toTopOf="@+id/group1" />
 
             <ImageView
-                android:id="@+id/panel_under_other_dish"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="120dp"
-                android:layout_marginEnd="20dp"
-                android:src="@drawable/bottom_panel_under_other_dish"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/imageView81" />
-
-            <TextView
-                android:id="@+id/Bartolomeo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="8.72dp"
-                android:layout_marginEnd="212dp"
-                android:layout_marginBottom="36.19dp"
-                android:text="Bartolomeo"
-                android:textColor="@color/Bartolomeo"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/panel_under_other_dish"
-                app:layout_constraintEnd_toEndOf="@+id/panel_under_other_dish"
-                app:layout_constraintStart_toStartOf="@+id/panel_under_other_dish"
-                app:layout_constraintTop_toTopOf="@+id/panel_under_other_dish" />
-
-            <ImageView
-                android:id="@+id/stars_other_dish"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="21dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginEnd="263.27dp"
-                android:layout_marginBottom="13.01dp"
+                android:layout_marginBottom="13dp"
                 android:src="@drawable/stars"
-                app:layout_constraintBottom_toBottomOf="@+id/panel_under_other_dish"
-                app:layout_constraintEnd_toEndOf="@+id/panel_under_other_dish"
-                app:layout_constraintStart_toStartOf="@+id/panel_under_other_dish"
-                app:layout_constraintTop_toTopOf="@+id/panel_under_other_dish" />
+                app:layout_constraintBottom_toBottomOf="@+id/group1"
+                app:layout_constraintEnd_toEndOf="@+id/group1"
+                app:layout_constraintStart_toStartOf="@+id/group1"
+                app:layout_constraintTop_toTopOf="@+id/group1" />
 
-            <TextView
-                android:id="@+id/time_other_dish"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="92dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="187dp"
-                android:layout_marginBottom="11dp"
-                android:text="10:00 - 20:00"
-                android:textSize="11sp"
-                android:textStyle="normal"
-                android:textColor="@color/time_main_page"
-                app:layout_constraintBottom_toBottomOf="@+id/panel_under_other_dish"
-                app:layout_constraintEnd_toEndOf="@+id/panel_under_other_dish"
-                app:layout_constraintStart_toStartOf="@+id/panel_under_other_dish"
-                app:layout_constraintTop_toTopOf="@+id/panel_under_other_dish" />
-
-            <ImageView
-                android:id="@+id/like_empty"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ToggleButton
+                android:id="@+id/like1"
+                android:layout_width="26dp"
+                android:layout_height="24dp"
                 android:layout_marginStart="297dp"
-                android:layout_marginTop="19dp"
+                android:layout_marginTop="130dp"
                 android:layout_marginEnd="19.85dp"
                 android:layout_marginBottom="19.7dp"
-                android:src="@drawable/like_empty"
-                app:layout_constraintBottom_toBottomOf="@+id/panel_under_other_dish"
-                app:layout_constraintEnd_toEndOf="@+id/panel_under_other_dish"
-                app:layout_constraintStart_toStartOf="@+id/panel_under_other_dish"
-                app:layout_constraintTop_toTopOf="@+id/panel_under_other_dish" />
+                android:text=""
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/change_like"
+                app:layout_constraintBottom_toBottomOf="@+id/group1"
+                app:layout_constraintEnd_toEndOf="@+id/group1"
+                app:layout_constraintStart_toStartOf="@+id/group1"
+                app:layout_constraintTop_toTopOf="@+id/group1" />
 
             <ImageView
-                android:id="@+id/other_dish2"
+                android:id="@+id/group2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="16dp"
-                android:src="@drawable/dish"
+                android:src="@drawable/group_activity_main_page"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/panel_under_other_dish" />
+                app:layout_constraintTop_toBottomOf="@+id/group1" />
 
             <ImageView
-                android:id="@id/aspire_other_dish"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="286.56dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="19.99dp"
-                android:layout_marginBottom="103.68dp"
+                android:layout_marginBottom="190dp"
                 android:src="@drawable/aspire_other_dish"
-                app:layout_constraintBottom_toBottomOf="@+id/other_dish2"
-                app:layout_constraintEnd_toEndOf="@+id/other_dish2"
-                app:layout_constraintStart_toStartOf="@+id/other_dish2"
-                app:layout_constraintTop_toBottomOf="@+id/panel_under_other_dish" />
+                app:layout_constraintBottom_toBottomOf="@+id/group2"
+                app:layout_constraintEnd_toEndOf="@+id/group2"
+                app:layout_constraintStart_toStartOf="@+id/group2"
+                app:layout_constraintTop_toTopOf="@+id/group2"/>
 
             <ImageView
-                android:id="@+id/Panel2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="120dp"
-                android:layout_marginEnd="20dp"
-                android:src="@drawable/bottom_panel_under_other_dish"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/panel_under_other_dish" />
-
-            <TextView
-                android:id="@+id/Bartolomeo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="8.72dp"
-                android:layout_marginEnd="212dp"
-                android:layout_marginBottom="36.19dp"
-                android:text="Bartolomeo"
-                android:textColor="@color/Bartolomeo"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel2"
-                app:layout_constraintEnd_toEndOf="@+id/Panel2"
-                app:layout_constraintStart_toStartOf="@+id/Panel2"
-                app:layout_constraintTop_toTopOf="@+id/Panel2" />
-
-            <ImageView
-                android:id="@+id/stars_other_dish2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/stars"
-                android:layout_marginStart="21dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginEnd="263.27dp"
-                android:layout_marginBottom="13.01dp"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel2"
-                app:layout_constraintEnd_toEndOf="@+id/Panel2"
-                app:layout_constraintStart_toStartOf="@+id/Panel2"
-                app:layout_constraintTop_toTopOf="@+id/Panel2" />
+                android:layout_marginBottom="13dp"
+                android:src="@drawable/stars"
+                app:layout_constraintBottom_toBottomOf="@+id/group2"
+                app:layout_constraintEnd_toEndOf="@+id/group2"
+                app:layout_constraintStart_toStartOf="@+id/group2"
+                app:layout_constraintTop_toTopOf="@+id/group2" />
 
-            <TextView
-                android:id="@+id/time_other_dish2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="92dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="187dp"
-                android:layout_marginBottom="11dp"
-                android:text="10:00 - 20:00"
-                android:textSize="11sp"
-                android:textStyle="normal"
-                android:textColor="@color/time_main_page"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel2"
-                app:layout_constraintEnd_toEndOf="@+id/Panel2"
-                app:layout_constraintStart_toStartOf="@+id/Panel2"
-                app:layout_constraintTop_toTopOf="@+id/Panel2" />
-
-            <ImageView
-                android:id="@+id/like_empty"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ToggleButton
+                android:id="@+id/like2"
+                android:layout_width="26dp"
+                android:layout_height="24dp"
                 android:layout_marginStart="297dp"
+                android:layout_marginTop="130dp"
                 android:layout_marginEnd="19.85dp"
                 android:layout_marginBottom="19.7dp"
-                android:src="@drawable/like_empty"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel2"
-                app:layout_constraintEnd_toEndOf="@+id/Panel2"
-                app:layout_constraintStart_toStartOf="@+id/Panel2"
-                app:layout_constraintTop_toTopOf="@+id/Panel2"
-                tools:ignore="DuplicateIds" />
+                android:text=""
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/change_like"
+                app:layout_constraintBottom_toBottomOf="@+id/group2"
+                app:layout_constraintEnd_toEndOf="@+id/group2"
+                app:layout_constraintStart_toStartOf="@+id/group2"
+                app:layout_constraintTop_toTopOf="@+id/group2" />
 
             <ImageView
-                android:id="@+id/other_dish3"
+                android:id="@+id/group3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@drawable/group_activity_main_page"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="16dp"
-                android:src="@drawable/dish"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Panel2" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/group2"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -423,98 +341,54 @@
                 android:layout_marginStart="286.56dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="19.99dp"
-                android:layout_marginBottom="103.68dp"
+                android:layout_marginBottom="190dp"
                 android:src="@drawable/aspire_other_dish"
-                app:layout_constraintTop_toTopOf="@+id/other_dish3"
-                app:layout_constraintBottom_toBottomOf="@+id/other_dish3"
-                app:layout_constraintEnd_toEndOf="@+id/other_dish3"
-                app:layout_constraintStart_toStartOf="@+id/other_dish3" />
+                app:layout_constraintBottom_toBottomOf="@+id/group3"
+                app:layout_constraintEnd_toEndOf="@+id/group3"
+                app:layout_constraintStart_toStartOf="@+id/group3"
+                app:layout_constraintTop_toTopOf="@+id/group3"/>
 
             <ImageView
-                android:id="@+id/Panel3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="120dp"
-                android:layout_marginEnd="20dp"
-                android:src="@drawable/bottom_panel_under_other_dish"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@id/other_dish3"/>
-
-            <TextView
-                android:id="@+id/Bartolomeo3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="8.72dp"
-                android:layout_marginEnd="212dp"
-                android:layout_marginBottom="36.19dp"
-                android:text="Bartolomeo"
-                android:textColor="@color/Bartolomeo"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel3"
-                app:layout_constraintEnd_toEndOf="@+id/Panel3"
-                app:layout_constraintStart_toStartOf="@+id/Panel3"
-                app:layout_constraintTop_toTopOf="@+id/Panel3"/>
-
-            <ImageView
-                android:id="@+id/stars_other_dish3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/stars"
-                android:layout_marginStart="21dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginEnd="263.27dp"
-                android:layout_marginBottom="13.01dp"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel3"
-                app:layout_constraintEnd_toEndOf="@+id/Panel3"
-                app:layout_constraintStart_toStartOf="@+id/Panel3"
-                app:layout_constraintTop_toTopOf="@+id/Panel3"/>
+                android:layout_marginBottom="13dp"
+                android:src="@drawable/stars"
+                app:layout_constraintBottom_toBottomOf="@+id/group3"
+                app:layout_constraintEnd_toEndOf="@+id/group3"
+                app:layout_constraintStart_toStartOf="@+id/group3"
+                app:layout_constraintTop_toTopOf="@+id/group3"/>
 
-            <TextView
-                android:id="@+id/time_other_dish3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="92dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="187dp"
-                android:layout_marginBottom="11dp"
-                android:text="10:00 - 20:00"
-                android:textSize="11sp"
-                android:textStyle="normal"
-                android:textColor="@color/time_main_page"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel3"
-                app:layout_constraintEnd_toEndOf="@+id/Panel3"
-                app:layout_constraintStart_toStartOf="@+id/Panel3"
-                app:layout_constraintTop_toTopOf="@+id/Panel3"/>
-
-            <ImageView
-                android:id="@+id/like_empty"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ToggleButton
+                android:id="@+id/like3"
+                android:layout_width="26dp"
+                android:layout_height="24dp"
                 android:layout_marginStart="297dp"
+                android:layout_marginTop="130dp"
                 android:layout_marginEnd="19.85dp"
                 android:layout_marginBottom="19.7dp"
-                android:src="@drawable/like_empty"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel3"
-                app:layout_constraintEnd_toEndOf="@+id/Panel3"
-                app:layout_constraintStart_toStartOf="@+id/Panel3"
-                app:layout_constraintTop_toTopOf="@+id/Panel3"
-                tools:ignore="DuplicateIds"/>
+                android:text=""
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/change_like"
+                app:layout_constraintBottom_toBottomOf="@+id/group3"
+                app:layout_constraintEnd_toEndOf="@+id/group3"
+                app:layout_constraintStart_toStartOf="@+id/group3"
+                app:layout_constraintTop_toTopOf="@+id/group3" />
 
             <ImageView
-                android:id="@+id/other_dish4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/group4"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="16dp"
-                android:src="@drawable/dish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/group_activity_main_page"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Panel3"/>
+                app:layout_constraintTop_toBottomOf="@+id/group3"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -522,86 +396,42 @@
                 android:layout_marginStart="286.56dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="19.99dp"
-                android:layout_marginBottom="103.68dp"
+                android:layout_marginBottom="190dp"
                 android:src="@drawable/aspire_other_dish"
-                app:layout_constraintTop_toTopOf="@+id/other_dish4"
-                app:layout_constraintBottom_toBottomOf="@+id/other_dish4"
-                app:layout_constraintEnd_toEndOf="@+id/other_dish4"
-                app:layout_constraintStart_toStartOf="@+id/other_dish4"/>
+                app:layout_constraintBottom_toBottomOf="@+id/group4"
+                app:layout_constraintEnd_toEndOf="@+id/group4"
+                app:layout_constraintStart_toStartOf="@+id/group4"
+                app:layout_constraintTop_toTopOf="@+id/group4"/>
 
             <ImageView
-                android:id="@+id/Panel4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="120dp"
-                android:layout_marginEnd="20dp"
-                android:src="@drawable/bottom_panel_under_other_dish"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@id/other_dish4"/>
-
-            <TextView
-                android:id="@+id/Bartolomeo4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="8.72dp"
-                android:layout_marginEnd="212dp"
-                android:layout_marginBottom="36.19dp"
-                android:text="Bartolomeo"
-                android:textColor="@color/Bartolomeo"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel4"
-                app:layout_constraintEnd_toEndOf="@+id/Panel4"
-                app:layout_constraintStart_toStartOf="@+id/Panel4"
-                app:layout_constraintTop_toTopOf="@+id/Panel4"/>
-
-            <ImageView
-                android:id="@+id/stars_other_dish4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/stars"
-                android:layout_marginStart="21dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginEnd="263.27dp"
-                android:layout_marginBottom="13.01dp"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel4"
-                app:layout_constraintEnd_toEndOf="@+id/Panel4"
-                app:layout_constraintStart_toStartOf="@+id/Panel4"
-                app:layout_constraintTop_toTopOf="@+id/Panel4"/>
+                android:layout_marginBottom="13dp"
+                android:src="@drawable/stars"
+                app:layout_constraintBottom_toBottomOf="@+id/group4"
+                app:layout_constraintEnd_toEndOf="@+id/group4"
+                app:layout_constraintStart_toStartOf="@+id/group4"
+                app:layout_constraintTop_toTopOf="@+id/group4"/>
 
-            <TextView
-                android:id="@+id/time_other_dish4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="92dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="187dp"
-                android:layout_marginBottom="11dp"
-                android:text="10:00 - 20:00"
-                android:textSize="11sp"
-                android:textStyle="normal"
-                android:textColor="@color/time_main_page"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel4"
-                app:layout_constraintEnd_toEndOf="@+id/Panel4"
-                app:layout_constraintStart_toStartOf="@+id/Panel4"
-                app:layout_constraintTop_toTopOf="@+id/Panel4"/>
-
-            <ImageView
-                android:id="@+id/like_empty"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ToggleButton
+                android:id="@+id/like4"
+                android:layout_width="26dp"
+                android:layout_height="24dp"
                 android:layout_marginStart="297dp"
+                android:layout_marginTop="130dp"
                 android:layout_marginEnd="19.85dp"
                 android:layout_marginBottom="19.7dp"
-                android:src="@drawable/like_empty"
-                app:layout_constraintBottom_toBottomOf="@+id/Panel4"
-                app:layout_constraintEnd_toEndOf="@+id/Panel4"
-                app:layout_constraintStart_toStartOf="@+id/Panel4"
-                app:layout_constraintTop_toTopOf="@+id/Panel4"
-                tools:ignore="DuplicateIds"/>
+                android:text=""
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/change_like"
+                app:layout_constraintBottom_toBottomOf="@+id/group4"
+                app:layout_constraintEnd_toEndOf="@+id/group4"
+                app:layout_constraintStart_toStartOf="@+id/group4"
+                app:layout_constraintTop_toTopOf="@+id/group4" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

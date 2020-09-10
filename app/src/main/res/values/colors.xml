@@ -15,4 +15,9 @@
     <color name="Bottom_icon_checked">#FC4442</color>
     <color name="Bottom_icon_notChecked">#3E333F</color>
     <color name="white">#FFFFFF</color>
+    <color name="recommendation">#FF7171</color>
+    <color name="time_dish_description">#3E333F</color>
+    <color name="black">#000000</color>
+    <color name="btColor">#FC4442</color>
+    <color name="bteColor">#FFFFFF</color>
 </resources>
