@@ -160,6 +160,117 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content_details"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/mexican"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="195dp"
+                android:background="@drawable/button_cuisine"
+                android:drawableLeft="@drawable/mexican_hat"
+                android:paddingEnd="13dp"
+                android:paddingRight="12dp"
+                android:text="Мексиканская кухня"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ukrainian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="195dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/button_cuisine"
+                android:drawableLeft="@drawable/mexican_hat"
+                android:paddingEnd="13dp"
+                android:paddingRight="12dp"
+                android:text="Украинская кухня"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/french"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="195dp"
+                android:background="@drawable/button_cuisine"
+                android:drawableLeft="@drawable/mexican_hat"
+                android:text="Украинская кухня"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:paddingEnd="13dp"
+                android:paddingRight="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mexican" />
+
+            <TextView
+                android:id="@+id/text_Lorem_Ipsum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="22dp"
+                android:text="Давно выяснено, что при оценке дизайна композиции \nчитаемый текст мешает сосредоточится. Lorem Ipsum \nиспользуют потому, что тот обеспечивает более или менее \nстандартное заполнение шаблона"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/french" />
+
+            <Button
+                android:id="@+id/instagram_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="91dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="205dp"
+                android:background="@color/application_background"
+                android:drawableLeft="@drawable/instagram_dish_description"
+                android:text="Instagram"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:paddingEnd="13dp"
+                android:paddingRight="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_Lorem_Ipsum" />
+
+            <Button
+                android:id="@+id/facebook_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="90dp"
+                android:background="@color/application_background"
+                android:drawableLeft="@drawable/instagram_dish_description"
+                android:text="Facebook"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:paddingEnd="13dp"
+                android:paddingRight="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_Lorem_Ipsum" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
