@@ -137,6 +137,23 @@
                     app:layout_constraintTop_toBottomOf="@+id/Bartolomeo_dish_description"
                     app:srcCompat="@drawable/stars_dish_description"/>
 
+                <ImageButton
+                    android:id="@+id/details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/button_details"
+                    android:paddingStart="13dp"
+                    android:paddingTop="7dp"
+                    android:paddingEnd="22dp"
+                    android:paddingBottom="6dp"
+                    android:src="@drawable/details_show"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
