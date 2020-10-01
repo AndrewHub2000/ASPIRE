@@ -20,4 +20,8 @@
     <color name="black">#000000</color>
     <color name="btColor">#FC4442</color>
     <color name="bteColor">#FFFFFF</color>
+    <color name="price">#3A333B</color>
+    <color name="weight">#777777</color>
+    <color name="Lorem">#909090</color>
+    <color name="together_with_this_choose">#2B2B2B</color>
 </resources>

@@ -137,22 +137,52 @@
                     app:layout_constraintTop_toBottomOf="@+id/Bartolomeo_dish_description"
                     app:srcCompat="@drawable/stars_dish_description"/>
 
-                <ImageButton
+                <RadioButton
                     android:id="@+id/details"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="248dp"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/button_details"
+                    android:layout_marginStart="188dp"
+                    android:layout_marginTop="307dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="#E5E5E5"
+                    android:button="@null"
+                    android:drawableStart="@drawable/details_arrow"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
                     android:paddingStart="13dp"
-                    android:paddingTop="7dp"
-                    android:paddingEnd="22dp"
-                    android:paddingBottom="6dp"
-                    android:src="@drawable/details_show"
+                    android:text=" Подробнее"
+                    android:textColor="#C1C1C1"
+                    android:textSize="13dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="parent" />
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/stars_dish_description"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.88" />
+                <RadioButton
+                    android:id="@+id/details2"
+                    android:layout_width="111dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="188dp"
+                    android:layout_marginTop="307dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/dish_top_of_the_day"
+                    android:button="@null"
+                    android:drawableStart="@drawable/details_arrow_on"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingStart="13dp"
+                    android:text="     Скрыть"
+                    android:textColor="#C1C1C1"
+                    android:textSize="13dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/stars_dish_description"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.88" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -276,70 +306,76 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp">
 
-            <RadioButton
-                android:id="@+id/button_menu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="300dp"
-                android:background="@drawable/button_rounded_dish_description"
-                android:paddingStart="13dp"
-                android:paddingTop="11.44dp"
-                android:paddingEnd="13dp"
-                android:paddingBottom="10.06dp"
-                android:src="@drawable/button_menu"
-                android:text="Все меню"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="parent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true"
+                android:animationCache="true">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:id="@+id/button_menu"
+                        style="@style/ToggleButton"
+                        android:layout_width="120dp"
+                        android:layout_height="44dp"
+                        android:drawableStart="@drawable/button_menu_white"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:layout_marginLeft="16dp"
+                        android:paddingStart="25dp"
+                        android:text="    Популярное"
+                        android:textColor="@color/bteColor"/>
 
-            <RadioButton
-                android:id="@+id/button_cold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="17dp"
-                android:src="@drawable/button_cold"
-                android:background="@drawable/button_rounded_dish_description"
-                android:paddingStart="13dp"
-                android:paddingTop="8dp"
-                android:paddingEnd="12.94dp"
-                android:paddingBottom="7.47dp"
-                android:text="Холодное"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/button_menu"
-                app:layout_constraintTop_toBottomOf="parent"/>
-            
-            <RadioButton
-                android:id="@+id/button_hot"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="17dp"
-                android:background="@drawable/button_rounded_dish_description"
-                android:src="@drawable/button_hot"
-                android:paddingStart="15dp"
-                android:paddingTop="8.57dp"
-                android:paddingEnd="15dp"
-                android:paddingBottom="12.57dp"
-                android:text="Горячее"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/button_cold"
-                app:layout_constraintTop_toBottomOf="parent" />
+                    <RadioButton
+                        android:id="@+id/button_cold"
+                        style="@style/ToggleButton"
+                        android:layout_width="56dp"
+                        android:layout_height="44dp"
+                        android:drawableStart="@drawable/button_cold"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:layout_marginLeft="16dp"
+                        android:paddingStart="13dp"
+                        android:text="    Популярное"
+                        android:textColor="@color/bteColor"/>
 
-            <RadioButton
-                android:id="@+id/button_drink"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="17dp"
-                android:background="@drawable/button_rounded_dish_description"
-                android:src="@drawable/button_drink"
-                android:paddingStart="20dp"
-                android:paddingTop="10dp"
-                android:paddingEnd="19.67dp"
-                android:paddingBottom="10.63dp"
-                android:text="Напитки"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/button_hot"
-                app:layout_constraintTop_toBottomOf="parent" />
+                    <RadioButton
+                        android:id="@+id/button_hot"
+                        style="@style/ToggleButton"
+                        android:layout_width="56dp"
+                        android:layout_height="44dp"
+                        android:drawableStart="@drawable/button_hot"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:layout_marginLeft="16dp"
+                        android:paddingStart="15dp"
+                        android:text="    Популярное"
+                        android:textColor="@color/bteColor" />
+
+                    <RadioButton
+                        android:id="@+id/button_drink"
+                        style="@style/ToggleButton"
+                        android:layout_width="56dp"
+                        android:layout_height="44dp"
+                        android:drawableStart="@drawable/button_drink"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:layout_marginLeft="16dp"
+                        android:paddingStart="20dp"
+                        android:text="    Популярное"
+                        android:textColor="@color/bteColor" />
+                </RadioGroup>
+            </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
