@@ -84,6 +84,8 @@
     <string name="google6">Google6</string>
     <string name="text9">Еще не создавали аккаунт?</string>
     <string name="text10">Создать профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
