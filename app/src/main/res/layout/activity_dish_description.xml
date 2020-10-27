@@ -525,16 +525,22 @@
                 android:textColor="@color/Bartolomeo"
                 android:textStyle="normal" />
 
+            </LinearLayout>
+
             <ImageButton
                 android:id="@+id/button_plus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="5dp"
-                android:layout_gravity="center"
+                android:layout_marginTop="76dp"
+                android:layout_marginStart="326dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="16dp"
                 android:background="@color/white"
-                android:src="@drawable/plus_dish_description" />
-
-            </LinearLayout>
+                android:src="@drawable/plus_dish_description"
+                app:layout_constraintTop_toTopOf="@+id/rectangle1"
+                app:layout_constraintStart_toStartOf="@+id/rectangle1"
+                app:layout_constraintEnd_toEndOf="@id/rectangle1"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle1"/>
 
             <ImageView
                 android:id="@+id/line_dish_description"

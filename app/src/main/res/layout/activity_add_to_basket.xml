@@ -180,16 +180,20 @@
             android:textColor="@color/Bartolomeo"
             android:textSize="16sp" />
 
+        </LinearLayout>
+
         <ImageButton
             android:id="@+id/button_plus_basket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingStart="21.5dp"
+            android:layout_marginTop="444dp"
+            android:layout_marginStart="336dp"
+            android:layout_marginEnd="32dp"
             android:background="@color/white"
-            android:src="@drawable/plus_big_add_to_basket" />
-
-        </LinearLayout>
+            android:src="@drawable/plus_big_add_to_basket"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:id="@+id/textView19"
