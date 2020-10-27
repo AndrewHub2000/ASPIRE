@@ -289,7 +289,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_add_to_basket"
-        android:text="Добавить к коризну"
+        android:text="Добавить в коризну"
         android:textColor="@color/white"
         android:textStyle="normal"
         android:textSize="14sp"
