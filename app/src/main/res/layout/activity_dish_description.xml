@@ -492,52 +492,49 @@
                 app:layout_constraintStart_toStartOf="@+id/rectangle1"
                 app:layout_constraintTop_toTopOf="@+id/rectangle1" />
 
-            <ImageButton
-                android:id="@+id/button_minus"
+            <LinearLayout
+                android:id="@+id/layout_plus_minus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="83dp"
                 android:layout_marginStart="280dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginEnd="12dp"
                 android:layout_marginBottom="21dp"
-                android:background="@color/white"
-                android:src="@drawable/minus_dish_description"
-                app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
-                app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+                app:layout_constraintTop_toTopOf="@+id/rectangle1"
                 app:layout_constraintStart_toStartOf="@+id/rectangle1"
-                app:layout_constraintTop_toTopOf="@+id/rectangle1"/>
+                app:layout_constraintEnd_toEndOf="@+id/rectangle1"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle1">
+
+
+            <ImageButton
+                android:id="@+id/button_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:paddingEnd="5dp"
+                android:src="@drawable/minus_dish_description" />
 
             <TextView
                 android:id="@+id/text_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="75dp"
-                android:layout_marginStart="302dp"
-                android:layout_marginEnd="34dp"
-                android:layout_marginBottom="16dp"
+                android:layout_gravity="center"
                 android:text="1"
                 android:textSize="12sp"
                 android:textColor="@color/Bartolomeo"
-                android:textStyle="normal"
-                app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
-                app:layout_constraintEnd_toEndOf="@+id/rectangle1"
-                app:layout_constraintStart_toStartOf="@+id/rectangle1"
-                app:layout_constraintTop_toTopOf="@+id/rectangle1"/>
+                android:textStyle="normal" />
 
             <ImageButton
                 android:id="@+id/button_plus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="76dp"
-                android:layout_marginStart="318dp"
-                android:layout_marginEnd="12dp"
-                android:layout_marginBottom="16dp"
+                android:paddingStart="5dp"
+                android:layout_gravity="center"
                 android:background="@color/white"
-                android:src="@drawable/plus_dish_description"
-                app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
-                app:layout_constraintEnd_toEndOf="@+id/rectangle1"
-                app:layout_constraintStart_toStartOf="@+id/rectangle1"
-                app:layout_constraintTop_toTopOf="@+id/rectangle1"/>
+                android:src="@drawable/plus_dish_description" />
+
+            </LinearLayout>
 
             <ImageView
                 android:id="@+id/line_dish_description"
